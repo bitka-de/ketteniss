@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Datenschutz')
+@section('robots', 'noindex, nofollow')
 
 @section('content')
     <x-navbar />

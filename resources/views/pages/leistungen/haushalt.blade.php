@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Alltagsbegleitung & Haushalt – Hilfe für Senioren in Aachen')
-@section('description', 'Individuelle Alltagsbegleitung und Haushaltshilfe für Senioren in Aachen – wir helfen beim Kochen, Putzen, Einkaufen und bringen Nähe & Struktur in den Alltag.')
-@section('keywords', 'Alltagsbegleitung Aachen, Haushaltshilfe Senioren Aachen, Alltagshilfe Aachen, Unterstützung im Haushalt, Seniorenbetreuung Aachen, Hilfe im Alltag')
+@section('title', 'Alltagsbegleitung & Haushalt in Aachen – Haushaltshilfe & Betreuung für Senioren')
+@section('description', 'Professionelle Alltagsbegleitung und Haushaltshilfe für Senioren in Aachen. Unterstützung beim Kochen, Putzen, Einkaufen und mehr – individuell, zuverlässig und herzlich.')
+@section('keywords', 'Alltagsbegleitung Aachen, Haushaltshilfe Aachen, Seniorenbetreuung Aachen, Unterstützung im Alltag, Hilfe für Senioren, Betreuung Haushalt Aachen, Seniorenhilfe Aachen, Alltagshilfe Aachen')
 
 @section('content')
 

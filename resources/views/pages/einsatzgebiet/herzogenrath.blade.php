@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Einsatzgebiet – Herzogenrath')
+@section('title', 'Einsatzgebiet Herzogenrath – Seniorenbetreuung & Alltagshilfe vor Ort')
+@section('description', 'Betreuungsdienst Ketteniß bietet persönliche und verlässliche Seniorenbetreuung in Herzogenrath – von Haushaltshilfe bis Begleitung zum Arzt. Regional, herzlich und individuell für Sie da.')
+@section('keywords', 'Betreuungsdienst Ketteniß, Seniorenbetreuung Herzogenrath, Alltagshilfe Herzogenrath, Haushaltshilfe Herzogenrath, Betreuung vor Ort, Demenzhilfe Herzogenrath, regionale Seniorenhilfe')
 
 @section('content')
 

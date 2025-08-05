@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Demenzbegleitung in Aachen – Betreuung mit Herz & Struktur')
-@section('description', 'Einfühlsame Demenzbegleitung in Aachen: Wir unterstützen Menschen mit Demenz liebevoll, geduldig und strukturiert – für mehr Sicherheit & Lebensqualität.')
-@section('keywords', 'Demenzbegleitung Aachen, Unterstützung bei Demenz, Betreuung bei Demenz, Senioren mit Demenz, Demenzhilfe Aachen, Betreuung demenziell Erkrankter')
+@section('title', 'Demenzbegleitung in Aachen – Einfühlsame Betreuung für Menschen mit Demenz')
+@section('description', 'Individuelle Demenzbegleitung in Aachen: Unsere erfahrenen Betreuungskräfte unterstützen Menschen mit Demenz und entlasten Angehörige – mit Herz, Geduld und Struktur für mehr Lebensqualität.')
+@section('keywords', 'Demenzbegleitung Aachen, Demenz Betreuung, Unterstützung Demenz, Seniorenbetreuung Aachen, Hilfe bei Demenz, Demenzhilfe Aachen, Betreuung Demenzkranke, Entlastung Angehörige Demenz')
 
 @section('content')
 

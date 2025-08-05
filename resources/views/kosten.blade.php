@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Kosten & Pflegekasse')
+@section('title', 'Kosten & Pflegekasse – Betreuungsdienst Ketteniß aus Aachen')
+@section('description',
+    'Erfahren Sie alles über die Kosten der Betreuung und die Unterstützung durch die Pflegekasse beim Betreuungsdienst Ketteniß aus Aachen. Individuelle Leistungen, faire Preise und Hilfe bei der Abrechnung.')
+@section('keywords',
+    'Kosten Betreuung, Pflegekasse, Entlastungsbetrag, Verhinderungspflege, Kurzzeitpflege, Betreuungsdienst Ketteniß, Seniorenhilfe Aachen, Pflegeleistungen Aachen')
 
 @section('content')
 

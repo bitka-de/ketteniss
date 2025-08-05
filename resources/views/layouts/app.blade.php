@@ -3,40 +3,34 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Betreuungsdienst Ketteniß - Aachen')</title>
-    <meta name="description" content="@yield('description', 'Betreuungsdienst Aachen')">
-    <meta name="keywords" content="@yield('keywords', 'Betreuungsdienst, Aachen')">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="@yield('description', 'Betreuungsdienst Aachen, professionelle Betreuung, Pflege, Senioren, Hilfe, Unterstützung')">
+    <meta name="keywords" content="@yield('keywords', 'Betreuungsdienst, Aachen, Pflege, Senioren, Betreuung, Hilfe, Unterstützung')">
+    <meta name="robots" content="@yield('robots', 'index, follow')">
 
-    <meta property="og:title" content="{{ $title ?? '' }}" />
-    <meta property="og:description" content="{{ $description ?? 'Willkommen' }}" />
+    {{-- Open Graph / Facebook --}}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="@yield('title', 'Betreuungsdienst Ketteniß - Aachen')" />
+    <meta property="og:description" content="@yield('description', 'Betreuungsdienst Aachen, professionelle Betreuung, Pflege, Senioren, Hilfe, Unterstützung')" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:image" content="{{ asset('img/og-image.jpg') }}" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/icon/apple-icon-152x152.png">
+    {{-- Twitter Card --}}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="@yield('title', 'Betreuungsdienst Ketteniß - Aachen')" />
+    <meta name="twitter:description" content="@yield('description', 'Betreuungsdienst Aachen, professionelle Betreuung, Pflege, Senioren, Hilfe, Unterstützung')" />
+    <meta name="twitter:image" content="{{ asset('img/og-image.jpg') }}" />
+
+    {{-- Favicons --}}
     <link rel="apple-touch-icon" sizes="180x180" href="/img/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/img/icon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/icon/favicon-16x16.png">
     <link rel="manifest" href="/img/icon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/img/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    {{-- Favicon (optional) --}}
-    <link rel="icon" href="/favicon.ico">
-    {{-- Styles (Tailwind via Vite) --}}
-    {{-- @vite('resources/css/app.css') --}}
-    {{-- <link rel="stylesheet" media="all" href="/build/assets/app-CbUU5GT-.css"> --}}
-
-        {{-- Styles / Scripts: Vite oder Manifest --}}
+    {{-- Styles / Scripts: Vite oder Manifest --}}
     @env('local')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 @else
@@ -54,23 +48,19 @@
         <script type="module" src="{{ asset('build/' . $jsPath) }}"></script>
     @endif
     @endenv
+
+    {{-- Canonical URL --}}
+    <link rel="canonical" href="{{ url()->current() }}" />
 </head>
 
 <body>
-
-
 
     {{-- Main Content --}}
     <main class="min-h-screen">
         @yield('content')
     </main>
 
-
     <x-footer />
-
-    {{-- Scripts (optional) --}}
-    {{-- @vite('resources/js/app.js') --}}
-    {{-- <script src="build/assets/app-DNxiirP_.js " defer></script> --}}
 </body>
 
 </html>

@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'FAQ – Häufige Fragen')
+@section('title', 'FAQ – Häufige Fragen zur Seniorenbetreuung in Aachen')
+@section('description',
+    'Antworten auf die häufigsten Fragen zur Seniorenbetreuung und Alltagshilfe in Aachen – Betreuungsdienst Ketteniß informiert klar und verständlich.')
+@section('keywords',
+    'FAQ Seniorenbetreuung Aachen, Betreuungsdienst Ketteniß, Alltagshilfe Senioren, Pflegekasse, Betreuung mit Herz, flexible Seniorenhilfe Aachen')
 
 @section('content')
 

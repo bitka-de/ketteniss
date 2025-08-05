@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Kontakt')
+@section('title', 'Kontakt – Betreuungsdienst Ketteniß aus Aachen')
+@section('description',
+    'Nehmen Sie Kontakt zum Betreuungsdienst Ketteniß aus Aachen auf – persönlich, schnell und unverbindlich. Wir beraten Sie rund um haushaltsnahe Seniorenhilfe mit Herz und Verlässlichkeit.')
+@section('keywords',
+    'Kontakt Betreuungsdienst Ketteniß, Seniorenhilfe Aachen, Beratung Betreuung, haushaltsnahe Hilfe Aachen, familiärer Betreuungsdienst, Kontaktformular Seniorenhilfe')
 
 @section('content')
 

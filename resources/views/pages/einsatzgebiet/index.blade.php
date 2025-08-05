@@ -1,10 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Einsatzgebiete – Seniorenbetreuung in Aachen & Umgebung')
-@section('description', 'Der Betreuungsdienst Ketteniß ist in Aachen, Herzogenrath, Würselen und Umgebung für Sie da –
-    persönlich, nah und zuverlässig. Jetzt Einsatzgebiet prüfen.')
-@section('keywords', 'Seniorenbetreuung Aachen, Betreuung Herzogenrath, Seniorenhilfe Würselen, häusliche Betreuung
-    Aachen Umgebung, Betreuungsdienst Kohlscheid, Seniorenhilfe Eschweiler')
+@section('title', 'Einsatzgebiete – Seniorenbetreuung in Aachen, Herzogenrath, Würselen & Umgebung')
+@section('description', 'Der Betreuungsdienst Ketteniß bietet persönliche und zuverlässige Seniorenbetreuung in Aachen, Herzogenrath, Würselen, Kohlscheid, Alsdorf, Eschweiler, Geilenkirchen, Baesweiler und der Städteregion Heinsberg. Informieren Sie sich über unsere Einsatzgebiete und individuelle Betreuung vor Ort.')
+@section('keywords', 'Seniorenbetreuung Aachen, Seniorenhilfe Herzogenrath, Betreuung Würselen, häusliche Betreuung Kohlscheid, Seniorenhilfe Alsdorf, Seniorenbetreuung Eschweiler, Betreuung Geilenkirchen, Seniorenhilfe Baesweiler, Betreuungsdienst Heinsberg, Seniorenbetreuung Städteregion Aachen')
 
 
 @section('content')

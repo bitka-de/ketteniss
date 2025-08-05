@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Unsere Leistungen – Alltagshilfe & Seniorenbegleitung in Aachen')
-@section('description', 'Von Haushaltshilfe bis Demenzbegleitung: Der Betreuungsdienst Ketteniß bietet individuelle Alltagshilfe und Seniorenbetreuung in Aachen & Umgebung.')
-@section('keywords', 'Alltagshilfe Aachen, Unterstützung im Haushalt für Senioren, Seniorenbegleitung, Haushaltshilfe Aachen, Demenzbegleitung Aachen, stundenweise Betreuung')
-
+@section('title', 'Seniorenbetreuung & Alltagshilfe in Aachen – Leistungen Ketteniß')
+@section('description', 'Individuelle Seniorenbetreuung, Haushaltshilfe, Demenzbegleitung und flexible Unterstützung in Aachen & Umgebung. Persönlich, erfahren & zuverlässig – Ketteniß Betreuungsdienst.')
+@section('keywords', 'Seniorenbetreuung Aachen, Alltagshilfe Aachen, Haushaltshilfe für Senioren, Demenzbegleitung Aachen, flexible Betreuung, stundenweise Betreuung, Begleitung Arztbesuch, Unterstützung im Alltag, Pflegekasse Aachen')
 
 @section('content')
 

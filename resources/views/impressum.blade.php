@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Impressum')
+@section('robots', 'noindex, nofollow')
+
 
 @section('content')
 

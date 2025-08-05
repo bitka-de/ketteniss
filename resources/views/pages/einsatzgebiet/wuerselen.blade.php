@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Einsatzgebiet – Würselen')
+@section('title', 'Seniorenbetreuung Würselen – Alltagshilfe & Betreuung vor Ort')
+@section('description', 'Ihr Betreuungsdienst in Würselen: Persönliche Alltagshilfe, haushaltsnahe Unterstützung und individuelle Seniorenbetreuung mit Herz, Nähe und Verlässlichkeit – direkt vor Ort.')
+@section('keywords', 'Seniorenbetreuung Würselen, Alltagshilfe Würselen, Betreuungsdienst Würselen, haushaltsnahe Unterstützung, Betreuung mit Herz, Seniorenhilfe Würselen, familiärer Betreuungsdienst')
 
 @section('content')
 
