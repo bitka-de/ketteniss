@@ -31,13 +31,15 @@
                     Aktuell betreuen wir Kund:innen unter anderem in folgenden Städten und Stadtteilen:
                 </p>
                 <ul class="list-inside text-gray-700 text-base space-y-1">
-                    <x-list.map>Aachen (alle Stadtteile)</x-list.map>
+                    <x-list.map>Aachen</x-list.map>
                     <x-list.map>Herzogenrath</x-list.map>
                     <x-list.map>Würselen</x-list.map>
                     <x-list.map>Kohlscheid</x-list.map>
                     <x-list.map>Alsdorf</x-list.map>
                     <x-list.map>Eschweiler</x-list.map>
                     <x-list.map>Geilenkirchen und Umgebung</x-list.map>
+                    <x-list.map>Baesweiler</x-list.map>
+                    <x-list.map>Städteregion Heinsberg</x-list.map>
                 </ul>
             </div>
             <div class="relative">

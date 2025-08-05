@@ -34,7 +34,26 @@
     <link rel="icon" href="/favicon.ico">
     {{-- Styles (Tailwind via Vite) --}}
     {{-- @vite('resources/css/app.css') --}}
-    <link rel="stylesheet" media="all" href="/build/assets/app-CbUU5GT-.css">
+    {{-- <link rel="stylesheet" media="all" href="/build/assets/app-CbUU5GT-.css"> --}}
+
+        {{-- Styles / Scripts: Vite oder Manifest --}}
+    @env('local')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+@else
+    @php
+        $manifest = json_decode(file_get_contents(public_path('build/manifest.json')), true);
+        $cssPath = $manifest['resources/css/app.css']['file'] ?? null;
+        $jsPath = $manifest['resources/js/app.js']['file'] ?? null;
+    @endphp
+
+    @if ($cssPath)
+        <link rel="stylesheet" href="{{ asset('build/' . $cssPath) }}">
+    @endif
+
+    @if ($jsPath)
+        <script type="module" src="{{ asset('build/' . $jsPath) }}"></script>
+    @endif
+    @endenv
 </head>
 
 <body>
@@ -51,7 +70,7 @@
 
     {{-- Scripts (optional) --}}
     {{-- @vite('resources/js/app.js') --}}
-    <script src="build/assets/app-DNxiirP_.js " defer></script>
+    {{-- <script src="build/assets/app-DNxiirP_.js " defer></script> --}}
 </body>
 
 </html>

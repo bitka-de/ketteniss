@@ -47,6 +47,8 @@
         </div>
     </x-section>
 
+    <x-partner/>
+
     <x-section class="bg-brand text-white py-20 cp-2">
 
         <x-cta headline="Nicht sicher, was Sie brauchen?"

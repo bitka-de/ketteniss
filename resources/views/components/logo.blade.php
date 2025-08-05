@@ -9,7 +9,7 @@
 
     {{-- Textblock --}}
     <div class="leading-tight">
-        <span class="block text-xl font-bold tracking-tight">Ketteniß</span>
+        <span class="block text-xl font-bold tracking-tight whitespace-nowrap">Ketteniß UG</span>
         <span class="block text-xs text-gray-600 -mt-0.5">Betreuungsdienst</span>
     </div>
 </a>

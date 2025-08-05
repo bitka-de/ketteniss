@@ -27,7 +27,7 @@
         <div>
             <h3 class="text-sm text-brand-lighter  font-semibold uppercase tracking-wider mb-2">Einsatzgebiete</h3>
             <ul class="space-y-1 text-sm">
-                <li><a href="/einsatzgebiet" class="hover:underline">Einsatzgebiet</a></li>
+                <li><a href="/einsatzgebiet" class="hover:underline">Übersicht</a></li>
                 <li><a href="/einsatzgebiet/herzogenrath" class="hover:underline">Herzogenrath</a></li>
                 <li><a href="/einsatzgebiet/wuerselen" class="hover:underline">Würselen</a></li>
             </ul>
