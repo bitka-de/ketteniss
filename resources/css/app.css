@@ -188,17 +188,13 @@
         isolation: isolate; /* wichtig für stacking */
     }
 
-    .cp-4
-    {
+    .cp-4 {
         clip-path: polygon(3rem 0, 100% 0, 100% 100%, 0 100%, 0 3rem);
     }
 
-    .cp-5{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 3rem); 
-
+    .cp-5 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 3rem);
     }
-
-
 
     @keyframes slide-clip-path {
         0% {
@@ -240,5 +236,24 @@
                 calc(100vw - 2rem) 0
             );
         }
+    }
+}
+
+.pulsating-border {
+    box-shadow: 0 0 0 3px #000, 0 0 20px 0 #38b2ac33;
+    animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+    0% {
+        box-shadow: 0 0 0 3px #ffffff, 0 0 20px 0 #38b2ac33;
+    }
+
+    50% {
+        box-shadow: 0 0 0 6px #ffffff, 0 0 40px 0 #38b2ac55;
+    }
+
+    100% {
+        box-shadow: 0 0 0 3px #ffffff, 0 0 20px 0 #38b2ac33;
     }
 }

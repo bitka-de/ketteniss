@@ -2,7 +2,7 @@
     'items' => [], // Array von Strings
 ])
 
-<ul role="list" class="space-y-2 text-gray-700 text-lg">
+<ul role="list" class="space-y-2 text-gray-700 text-lg max-w-full">
     @foreach ($items as $item)
         <li class="flex items-start gap-3">
             <svg class="mt-1 h-6 w-6 flex-shrink-0 text-brand-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">

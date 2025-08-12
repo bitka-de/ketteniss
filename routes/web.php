@@ -15,12 +15,15 @@ Route::get('/einsatzgebiet', function () {return view('pages/einsatzgebiet/index
 Route::get('/einsatzgebiet/herzogenrath', function () {return view('pages/einsatzgebiet/herzogenrath');})->name('einsatzgebiet.herzogenrath');
 Route::get('/einsatzgebiet/wuerselen', function () {return view('pages/einsatzgebiet/wuerselen');})->name('einsatzgebiet.wuerselen');
 Route::get('/faq', function () {return view('faq');})->name('faq');
+Route::get('/jobs', function () {return view('jobs');})->name('jobs');
 Route::get('/kontakt', function () {return view('kontakt');})->name('kontakt');
 Route::post('/kontakt', [KontaktController::class, 'absenden'])->name('kontakt.absenden');
 
 
 Route::get('/impressum', function () {return view('impressum');})->name('impressum');
 Route::get('/datenschutz', function () {return view('datenschutz');})->name('datenschutz');
+
+Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index']);
 
 
 
