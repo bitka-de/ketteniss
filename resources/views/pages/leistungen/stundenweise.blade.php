@@ -1,9 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Stundenweise Betreuung – Flexible Seniorenhilfe in Aachen')
-@section('description', 'Unsere stundenweise Betreuung in Aachen entlastet Angehörige und bringt Struktur in den Alltag – flexibel, herzlich und individuell anpassbar.')
-@section('keywords', 'stundenweise Betreuung Aachen, flexible Seniorenbetreuung, Entlastung pflegender Angehöriger, stundenweise Hilfe Senioren, Seniorenbegleitung Aachen')
-
+@section('title', 'Stundenweise Betreuung in Aachen – Flexible Seniorenhilfe & Entlastung')
+@section('description', 'Flexible stundenweise Betreuung für Senioren in Aachen: individuelle Unterstützung, Entlastung für Angehörige, Alltagshilfe, Demenzbegleitung und mehr. Jetzt unverbindlich informieren!')
+@section('keywords', 'stundenweise Betreuung Aachen, Seniorenhilfe Aachen, flexible Betreuung, Entlastung Angehörige, Alltagshilfe Senioren, Demenzbegleitung Aachen, Seniorenbegleitung, Pflege Unterstützung, Betreuungskraft Aachen')
 
 @section('content')
 

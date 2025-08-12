@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Begleitung beim Einkauf & Arzt – Hilfe für Senioren in Aachen')
-@section('description', 'Verlässliche Begleitung für Senioren in Aachen – ob Einkauf, Arzttermin oder Besorgungen: Wir sorgen für Sicherheit, Orientierung und echte Nähe im Alltag.')
-@section('keywords', 'Begleitung zum Arzt Aachen, Einkaufshilfe Senioren Aachen, Seniorenbegleitung Aachen, Hilfe bei Terminen, Betreuung bei Besorgungen, Seniorenhilfe Aachen')
+@section('title', 'Begleitung zum Einkauf & Arzt in Aachen – Senioren sicher unterwegs')
+@section('description', 'Persönliche Begleitung für Senioren in Aachen: Unterstützung beim Einkaufen, Arztbesuch und Besorgungen. Sicher, zuverlässig und individuell – für mehr Lebensqualität im Alltag.')
+@section('keywords', 'Seniorenbegleitung Aachen, Einkaufshilfe Aachen, Begleitung Arzt Aachen, Unterstützung Senioren Alltag, Hilfe Besorgungen Aachen, Betreuung Senioren Aachen')
 
 @section('content')
 
