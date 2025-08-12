@@ -12,6 +12,7 @@
             <x-link route="ueber-uns" title="Zur Startseite">Über Uns</x-link>
             <x-link route="leistungen" title="Unsere Leistungen">Leistungen</x-link>
             <x-link route="einsatzgebiet" title="Unsere Einsatzgebiete">Einsatzgebiete</x-link>
+            <x-link route="jobs" title="Jobs">Jobs</x-link>
             <x-link route="faq" title="Häufige Fragen">FAQ</x-link>
         </nav>
 
@@ -60,6 +61,7 @@
         <x-link route="ueber-uns" title="Zur Startseite">Über Uns</x-link>
         <x-link route="leistungen" title="Unsere Leistungen">Leistungen</x-link>
         <x-link route="einsatzgebiet" title="Unsere Einsatzgebiete">Einsatzgebiete</x-link>
+        <x-link route="jobs" title="Jobs">Jobs</x-link>
         <x-link route="faq" title="Häufige Fragen">FAQ</x-link>
     </nav>
 
@@ -73,7 +75,7 @@
                     d="M152 48a78.61 78.61 0 0 1 56 56m-64-24c16.52 4.42 27.58 15.48 32 32m-19.61 41.34a8 8 0 0 1 7.59-.69l47.16 21.13a8 8 0 0 1 4.8 8.3A48.33 48.33 0 0 1 168 224 136 136 0 0 1 32 88a48.33 48.33 0 0 1 41.92-47.94 8 8 0 0 1 8.3 4.8l21.13 47.2a8 8 0 0 1-.66 7.53L81.32 125a7.93 7.93 0 0 0-.54 7.81c8.27 16.93 25.77 34.22 42.75 42.41a7.92 7.92 0 0 0 7.83-.59Z" />
             </svg>
         </x-button>
-        <x-button href="tel:{{ config('company.mail') }}" variant="ghost" class="w-auto !bg-brand-darker">
+        <x-button href="mailto:{{ config('company.mail') }}" variant="ghost" class="w-auto !bg-brand-darker">
             <svg viewBox="0 0 256 256" class="h-6 *:stroke-white">
                 <path fill="none" d="M0 0h256v256H0z" />
                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
